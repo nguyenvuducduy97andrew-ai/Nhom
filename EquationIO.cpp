@@ -17,6 +17,7 @@ void Input() {
 }
 double x, x1, x2, x3, x4;
 void nghiemptbacnhat() {
+	cout << "Phuong trinh bac nhat: " << a1 << "x + " << b1 << " = 0" <<endl;
 	int nSol = 0;
 	giaiBac1(a1, b1,x,nSol);
 	switch (nSol) {
@@ -26,6 +27,7 @@ void nghiemptbacnhat() {
 	}
 }
 void nghiemptbac2() {
+	cout << "Phuong trinh bac hai: " << a2 << "x^2 + " << b2 << "x + " << c2 << " = 0"<<endl;
 	int nSol = 0;
 	giaiBac2(a2, b2, c2,x1,x2,nSol);
 	switch (nSol) {
@@ -36,6 +38,7 @@ void nghiemptbac2() {
 	}
 }
 void nghiemptbac3() {
+	cout << "Phuong trinh bac ba: " << a3 << "x^3 + " << b3 << "x^2 + " << c3 << "x + " << d3 << " = 0"<<endl;
 	int nSol = 0;
 	giaiBac3(a3, b3, c3, d3,x1,x2,x3,nSol);
 	switch (nSol) {
@@ -47,6 +50,7 @@ void nghiemptbac3() {
 	}
 }
 void nghiempttrungphuong() {
+	cout << "Phuong trinh trung phuong: " << a4 << "x^4 + " << b4 << "x^2 + " << c4 << " = 0"<<endl;
 	int nSol = 0;
 	giaiTrungPhuong(a4, b4, c4,x1,x2,x3,x4,nSol);
 	switch (nSol) {
