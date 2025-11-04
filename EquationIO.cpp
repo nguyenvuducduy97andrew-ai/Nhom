@@ -6,13 +6,13 @@
 using namespace std;
 double a1, a2, a3, a4, b1, b2, b3, b4, c2, c3, c4, d3;
 void Input() {
-	cout << "Moi thay nhap co so cua ham bac nhat: ";
+	cout << "Moi thay nhap co so cua ham bac nhat ax+b=0: ";
 	cin >> a1 >> b1;
-	cout << "Moi thay nhap co so cua ham bac hai: ";
+	cout << "Moi thay nhap co so cua ham bac hai ax^2+bx+c=0: ";
 	cin >> a2 >> b2 >> c2;
-	cout << "Moi thay nhap co so cua ham bac ba: ";
+	cout << "Moi thay nhap co so cua ham bac ba ax^3+bx^2+cx+d=0: ";
 	cin >> a3 >> b3 >> c3 >> d3;
-	cout << "Moi thay nhap co so cua ham trung phuong: ";
+	cout << "Moi thay nhap co so cua ham trung phuong ax^4+bx+c=0: ";
 	cin >> a4 >> b4 >> c4;
 }
 double x, x1, x2, x3, x4;
