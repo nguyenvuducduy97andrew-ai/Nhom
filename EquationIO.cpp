@@ -12,7 +12,7 @@ void Input() {
 	cin >> a2 >> b2 >> c2;
 	cout << "Moi thay nhap co so cua ham bac ba ax^3+bx^2+cx+d=0: ";
 	cin >> a3 >> b3 >> c3 >> d3;
-	cout << "Moi thay nhap co so cua ham trung phuong ax^4+bx+c=0: ";
+	cout << "Moi thay nhap co so cua ham trung phuong ax^4+bx^2+c=0: ";
 	cin >> a4 >> b4 >> c4;
 }
 double x, x1, x2, x3, x4;
